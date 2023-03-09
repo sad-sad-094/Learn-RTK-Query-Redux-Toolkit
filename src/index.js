@@ -8,11 +8,11 @@ import { Provider } from 'react-redux';
 
 import App from './App';
 import './index.css';
-import { Store } from './state/Store';
+import { store } from './state/Store';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Provider store={Store}>
+  <Provider store={store}>
     <App />
   </Provider>
 );
