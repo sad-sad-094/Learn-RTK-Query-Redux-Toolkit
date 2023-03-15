@@ -3,15 +3,17 @@ E-mail: sadw621@gmail.com */
 
 
 import './App.css';
-// import Counter from './components/modules/Counter';
-import PokemonApp from './components/Pages/PokemonApp';
+import ToDoApp from './components/Pages/ToDoApp';
+// import Counter from './components/Pages/Counter';
+// import PokemonApp from './components/Pages/PokemonApp';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         {/* <Counter /> */}
-        <PokemonApp />
+        {/* <PokemonApp /> */}
+        <ToDoApp />
       </header>
     </div>
   );
