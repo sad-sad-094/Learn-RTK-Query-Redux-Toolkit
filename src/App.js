@@ -3,13 +3,15 @@ E-mail: sadw621@gmail.com */
 
 
 import './App.css';
-import Counter from './components/modules/Counter';
+// import Counter from './components/modules/Counter';
+import PokemonApp from './components/Pages/PokemonApp';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Counter />
+        {/* <Counter /> */}
+        <PokemonApp />
       </header>
     </div>
   );
