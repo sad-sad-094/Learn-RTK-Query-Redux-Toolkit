@@ -3,19 +3,23 @@ E-mail: sadw621@gmail.com */
 
 
 import './styles/Main.scss';
-import Counter from './components/Pages/Counter';
+import Counter from './components/pages/Counter';
+import Navbar from './components/modules/Navbar';
 
 function App() {
-  return (
-    <div className="App">
 
-      <header className="App-header">
+  return (
+
+    <>
+
+
+      <div className="main-container">
 
         <Counter />
 
-      </header>
+      </div>
 
-    </div>
+    </>
 
   );
 
