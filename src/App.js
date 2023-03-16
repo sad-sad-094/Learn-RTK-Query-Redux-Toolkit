@@ -2,21 +2,23 @@
 E-mail: sadw621@gmail.com */
 
 
-import './App.css';
-import ToDoApp from './components/Pages/ToDoApp';
-// import Counter from './components/Pages/Counter';
-// import PokemonApp from './components/Pages/PokemonApp';
+import './styles/Main.scss';
+import Counter from './components/Pages/Counter';
 
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
-        {/* <Counter /> */}
-        {/* <PokemonApp /> */}
-        <ToDoApp />
+
+        <Counter />
+
       </header>
+
     </div>
+
   );
+
 }
 
 export default App;
